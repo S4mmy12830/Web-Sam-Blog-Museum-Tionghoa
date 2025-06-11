@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to right, rgb(5, 129, 202), rgb(0, 179, 255));
+}
+
+.blog {
+    flex-direction: column;
+    gap :20px;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px blue;
+}
+
+.header {
+    display :flex;
+    justify-content: start;
+    gap :20px;
+    background-color: rgb(55, 238, 244);
+    width: auto;
+    height: 120px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+    position: sticky;
+    top :0;
+}
+
+.title {
+    background-color: rgb(0, 132, 255);
+    display :flex;
+    gap :10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+}
+
+#judul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#oleh {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+}
+
+.text {
+    background: linear-gradient(to right, whitesmoke, white);
+    border-radius: 10px;
+    width: auto ;
+    display: flex;
+}
+
+.isi {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.penjelasan {
+    display :flex;
+    gap :20px;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex-basis: 200;
+    flex-grow: 1;
+    box-shadow: 3px 3px 5px blue;
+}
+
+.bagian {
+    background-color: rgb(55, 238, 244);
+    border-radius: 5px;
+    display: flex;
+    width: auto;
+    box-shadow: 3px 3px 5px blue;
+}
+
+.tempat {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display :flex;
+    justify-content: start;
+    gap :20px;
+    background-color: rgb(55, 238, 244);
+    width: auto;
+    height: 120px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+    position: sticky;
+    top :0;
+}
