@@ -25,8 +25,8 @@ body {
     align-items: center;
     border-radius: 5px;
     box-shadow: 3px 3px 5px blue;
-    position: sticky;
-    top :0;
+    position: fixed;
+    top :0; left:0;
 }
 
 .title {
